@@ -72,9 +72,9 @@ body {
 
 .gif-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 3fr);
   gap: 6px;              /* very compact spacing */
-  max-width: 600px;      /* controls overall size */
+  max-width: 400px;      /* controls overall size */
   margin: 20px auto;     /* centers the grid */
 }
 
