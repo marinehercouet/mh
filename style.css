@@ -60,3 +60,14 @@ body {
   line-height: 1.1;
 }
 
+.content a {
+  color: #111;           /* same as text */
+  text-decoration: underline;
+  font-weight: bold;     /* optional, makes title stand out */
+}
+
+.content a:hover {
+  color: #555;           /* subtle hover effect */
+}
+
+
