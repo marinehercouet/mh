@@ -24,7 +24,7 @@ body {
 }
 
 .section h3 {
-  font-size: 18px;
+  font-size: 12px;
   margin-bottom: 25px;
   padding-bottom: 6px;
   border-bottom: 1px solid #bbb;
@@ -41,7 +41,7 @@ body {
 }
 
 .date {
-  font-size: 13px;
+  font-size: 11px;
   color: #666;
   letter-spacing: 0.05em;
 }
