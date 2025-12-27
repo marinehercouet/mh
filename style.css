@@ -74,7 +74,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 3fr);
   gap: 6px;              /* very compact spacing */
-  max-width: 400px;      /* controls overall size */
+  max-width: 300px;      /* controls overall size */
   margin: 20px auto;     /* centers the grid */
 }
 
