@@ -3,30 +3,31 @@ body {
   background: #fff;
   color: #111;
   margin: 0;
-  padding: 30px; /* slightly smaller padding */
-  line-height: 1.2; /* tighter lines */
+  padding: 20px; /* very small padding */
+  line-height: 1.1; /* extremely tight lines */
+  font-size: 11px; /* smaller global font */
 }
 
 .timeline {
-  max-width: 800px; /* a bit narrower */
+  max-width: 700px; /* narrower container */
   margin: auto;
 }
 
 .timeline h2 {
-  font-size: 24px; /* smaller heading */
-  margin-bottom: 40px;
+  font-size: 16px; /* smaller main title */
+  margin-bottom: 20px;
   font-weight: normal;
   letter-spacing: 0.03em;
 }
 
 .section {
-  margin-bottom: 30px; /* tighter spacing between sections */
+  margin-bottom: 15px; /* very tight spacing between sections */
 }
 
 .section h3 {
-  font-size: 16px; /* smaller subsection headings */
-  margin-bottom: 15px;
-  padding-bottom: 3px;
+  font-size: 12px; /* smaller section heading */
+  margin-bottom: 8px;
+  padding-bottom: 2px;
   border-bottom: 1px solid #bbb;
   font-weight: normal;
   text-transform: uppercase;
@@ -35,19 +36,23 @@ body {
 
 .item {
   display: flex;
-  gap: 12px; /* less horizontal gap */
-  margin-bottom: 8px; /* less space between items */
+  gap: 8px; /* minimal horizontal gap */
+  margin-bottom: 3px; /* very small vertical spacing */
 }
 
 .date {
   flex-shrink: 0;
-  width: 70px; /* slightly narrower date column */
-  font-size: 12px; /* smaller date font */
+  width: 60px; /* compact date column */
+  font-size: 10px; /* smaller date font */
   color: #666;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.03em;
 }
 
 .content {
+  font-size: 11px; /* very small content font */
+  line-height: 1.1; /* condensed line height */
+}
+
   font-size: 13px; /* smaller content font */
   line-height: 1.2; /* tighter line-height */
 }
