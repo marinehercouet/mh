@@ -1,10 +1,10 @@
 body {
   font-family: "Courier New", Courier, monospace;
-  background: #ffffff;
+  background: #fff;
   color: #111;
   margin: 0;
   padding: 40px;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 .timeline {
@@ -20,28 +20,34 @@ body {
 }
 
 .section {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .section h3 {
-  font-size: 12px;
-  margin-bottom: 25px;
-  padding-bottom: 6px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding-bottom: 4px;
   border-bottom: 1px solid #bbb;
   font-weight: normal;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
 }
 
 .item {
-  display: grid;
-  grid-template-columns: 110px 1fr;
-  gap: 24px;
-  margin-bottom: 28px;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 12px;
 }
 
 .date {
-  font-size: 11px;
+  flex-shrink: 0;
+  width: 80px;
+  font-size: 13px;
   color: #666;
   letter-spacing: 0.05em;
+}
+
+.content {
+  font-size: 14px;
+  line-height: 1.4;
 }
